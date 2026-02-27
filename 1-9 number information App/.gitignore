@@ -1,0 +1,33 @@
+# Build directories
+build/
+bin/
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+number_info_app
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compressed files
+*.zip
